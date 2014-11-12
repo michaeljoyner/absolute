@@ -1,0 +1,215 @@
+
+
+*, *:before, *:after {
+		 -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	}
+
+	.clearfix {
+		clear: both;
+	}
+
+	html, html a {
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+html, body, p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Aardvark', Ariel, serif;
+	color: #1A3446;
+	letter-spacing: 0.0625em;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #ffffff;
+	font-size: 45%;
+	min-height: 100%;
+}
+
+.header-top {
+	width: 100%;
+	min-height: 8em;
+	position: relative;
+	background-color: #BCE6FB;
+}
+
+.header-top img {
+	width: 20%;
+	float: right;
+}
+
+.header-top h1 {
+	display: inline-block;
+	margin: 0 1em;
+	color: #1A3446;
+	font-size: 2em;
+	width: 60%;
+	padding-top: 0.5em;
+}
+
+nav {
+	width: 100%;
+	height: 5em;
+	position: relative;
+	display: none;
+	margin-bottom: 5em;
+}
+
+nav ul {
+	list-style: none;
+	width: 65%;
+	float: right;
+	text-align: right;
+	margin-right: 3em;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 2em;
+}
+
+.text-dummy {
+	width: 100%;
+	max-width: 1100px;
+	height: 1.5em;
+	background-color: #ddd;
+	margin: 0.25em auto;
+}
+
+.text-dummy:nth-child(1) {
+	margin-top: 5em;
+}
+
+#sports_icon_container {
+	width: 100%;
+	position: relative;
+	max-width: 1100px;
+	padding: 0.5em;
+	margin: 2em auto;
+}
+
+.sportbox {
+	width: 24%;
+	height: 16em;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	border: 4px solid #ffffff;
+	border-radius: 8px;
+	margin: 1em 0;
+}
+
+.sportbox p {
+	font-family: 'Aardvark', Ariel, serif;
+	font-size: 1.5em;
+	text-align: center;
+	color: #000F29;
+	line-height: 2em;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+.sportbox:hover p {
+	opacity: 0;
+}
+
+.sportbox .productlink {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #EF454C;
+	color: #ffffff;
+	font-family: 'Aardvark', Ariel, serif;
+	text-align: center;
+	width:100%;
+	line-height: 2em;
+	font-size: 0.5em;
+	height: 0;
+	opacity: 0;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.sportbox:hover .sports-box {
+	-webkit-transform: translate3d(0,1.4em,0);
+	-moz-transform: translate3d(0,1.4em,0);
+	transform: translate3d(0,1.4em,0);
+}
+
+.sportbox:hover .productlink {
+	height: 2em;
+	opacity: 1;
+}
+
+.sports-box {
+	width: 100%;
+	float: left;
+	border-radius: 8px;
+	height: 13em;
+	text-align: center;
+	padding-top: 2em;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+footer {
+	width: 100%;
+	height: 4em;
+	background-color: #000F29;
+	margin-top: 3em;
+}
+
+@media (min-width: 600px) {
+	.header-top img {
+		float: left;
+	}
+
+	.header-top h1 {
+		float: right;
+	}
+
+	nav {
+		display: block;
+	}
+
+	#site_canvas #menu_burger {
+		display: none;
+	}
+
+	#site_menu {
+		display: none;
+	}
+
+	body {
+		font-size: 70%;
+	}
+
+	.sportbox .productlink {
+		font-size: 1em;
+	}
+}
+
+@media (min-width: 801px) {
+	body {
+		font-size: 100%;
+	}
+
+	.header-top h1 {
+		text-align: right;
+		margin-right: 2.4em;
+	}
+
+	.sportbox {
+		width: 24.5%;
+	}
+}

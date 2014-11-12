@@ -1,0 +1,35 @@
+.delivery-main {
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 2em;
+  	padding: 0 1em;
+    @include respond-to(phone) {margin-top: 7em;}
+    @include respond-to(smalltablet) {margin-top: 7em;}
+
+	h1 {
+		font-family: $aardvark;
+		color: $navy;
+		width: 100%;
+		text-align: center;
+		font-size: 28px;
+	}
+
+	p {
+		font-family: $verdana;
+		line-height: 19px;
+		margin-bottom: 1em;
+		text-align: center;
+	}
+
+	a {
+		text-decoration: none;
+		color: $orange;
+	}
+
+	img {
+	  display: block;
+	  width: 50%;
+	  margin: 0 auto 2em;
+	  padding-top: 2em;
+	}
+}

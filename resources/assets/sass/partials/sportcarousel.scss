@@ -1,0 +1,267 @@
+.carousel-wrapper {
+  position: absolute;
+  width: 100%;
+  min-height: 60%;
+  top: 14em;
+  transform: translate3d(-2000px,0,0);
+  @include respond-to(phone) {top: 9em;}
+  @include respond-to(smalltablet) {top: 13em;}
+}
+
+.lt-ie10 .carousel-wrapper {
+  left: -2000px;
+}
+
+.sport-carousel {
+  width: 100%;
+  height: auto;
+}
+
+.sport-slide {
+  width: 80%;
+  margin: 0 10%;
+  position: absolute;
+  height: 550px;
+  transition: transform 0.5s, opacity 2s;
+  z-index: 1;
+  font-family: "Georgia", Times, serif;
+  background-color: $white;
+  @include respond-to(phone) {display: none;}
+  @include respond-to(smalltablet) {display: none;}
+  @include respond-to(largetablet) {display: none;}
+
+  .nav-label {
+    display: none;
+    font-family: $verdana;
+    font-weight: 600;
+  }
+}
+
+.sport-slide.next {
+  transform: scale(1,0.8);
+  background-color: $white;
+
+  * {
+    display: none;
+  }
+
+  .nav-label {
+    position: relative;
+    top: 320px;
+    left: 101%;
+    display: inline-block;
+    margin: 0;
+    color: $superlightgrey;
+    @include respond-to(phone) {display: none;}
+    @include respond-to(smalltablet) {display: none;}
+  }
+
+}
+
+.sport-slide.prev {
+  transform: scale(1,0.8);
+  background-color: $white;
+
+  * {
+    display: none;
+  }
+
+  .nav-label {
+    position: relative;
+    top: 320px;
+    width: 10%;
+    text-align: right;
+    left: -11%;
+    display: inline-block;
+    margin: 0;
+    color: $superlightgrey;
+    @include respond-to(phone) {display: none;}
+    @include respond-to(smalltablet) {display: none;}
+  }
+}
+
+.lt-ie10 .sport-slide.prev .nav-label {
+  top: 43%;
+  left: -12%;
+  width: 10%;
+  text-align: right;
+}
+
+.lt-ie10 .sport-slide.next .nav-label {
+  top: 43%;
+  left: 101%;
+}
+
+.lt-ie10 .sport-slide.prev, .lt-ie10 .sport-slide.next {
+  left: 0;
+}
+
+.sport-slide.selected {
+  z-index: 100;
+  border: 4px solid $navy;
+  box-shadow: 8px 8px 8px $lightgrey;
+  @include respond-to(phone) {display: block;}
+  @include respond-to(smalltablet) {display: block;}
+  @include respond-to(largetablet) {display: block; padding-top: 40px;}
+}
+
+.carousel-nav {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 255px;
+  z-index: 200;
+  cursor: pointer;
+  overflow: hidden;
+  @include respond-to(phone) {top: -30px;}
+  @include respond-to(smalltablet) {top: -30px;}
+
+  img {
+    display: none;
+    width: 100%;
+  }
+}
+
+.lt-ie9 .carousel-nav img {
+  display: inline-block;
+  width: 100%;
+}
+
+.carousel-nav svg {
+  width: 100%;
+}
+
+.carousel-nav:hover svg path {
+  fill: $orange;
+}
+
+
+
+.next-arrow {
+  right: 5%;
+}
+
+.prev-arrow {
+  left: 5%;
+}
+
+#exit-button {
+  position: absolute;
+  left: 47%;
+  top: 515px;
+  z-index: 2000;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  @include respond-to(phone) {left: 39%; top: -35px}
+  @include respond-to(smalltablet) {left: 45%; top: -35px}
+  @include respond-to(largetablet) {left: 48%; top: -35px}
+
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  img {
+    display: none;
+  }
+}
+
+.lt-ie9 #exit-button img {
+  display: inline-block;
+  width: 100%;
+}
+
+#exit-button:hover svg path.navy {
+  fill: $orange;
+}
+
+.slide-image-holder {
+  min-height: 500px;
+  width: 45%;
+  margin-top: 1em;
+  margin-left: 1em;
+  float: left;
+  @include respond-to(phone) {display: none;}
+  @include respond-to(smalltablet) {display: none;}
+
+  img {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    height: 500px;
+    @include respond-to(largetablet) {width: 100%; height: auto;}
+  }
+}
+
+.slide-info {
+  width: 45%;
+  height: 90%;
+  float: right;
+  margin-top: 1em;
+  margin-right: 1em;
+  overflow-y: auto;
+
+  h1 {
+    margin: 0;
+    margin-right: 1px;
+    border: 1px solid;
+    border-bottom: none;
+    text-align: center;
+    font-family: $aardvark;
+    color: $navy;
+    text-transform: uppercase;
+    padding: 0.25em 0;
+    letter-spacing: 1px;
+    @include respond-to(phone) {margin-right: 0; border: none; font-size: 115%;}
+    @include respond-to(smalltablet) {margin-right: 0; border: none; font-size: 115%;}
+    @include respond-to(largetablet) {margin-right: 0; border: none; font-size: 115%;}
+  }
+  @include respond-to(phone) {width: 100%; padding-top: 40px; margin: 0;}
+  @include respond-to(smalltablet) {width: 100%; padding-top: 40px; margin: 0;}
+}
+
+.product-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid $navy;
+  font-family: $verdana;
+  color: $navy;
+  @include respond-to(phone) {border: none; border-top: 1px solid $navy;}
+  @include respond-to(smalltablet) {border: none; border-top: 1px solid $navy;}
+  @include respond-to(largetablet) {border: none; border-top: 1px solid $navy;}
+  thead {
+    text-align: center;
+    font-size: 120%;
+    font-family: $verdana;
+  }
+
+  th, td {
+    border: 1px solid $navy;
+    @include respond-to(phone) {border: none; border-bottom: 1px solid $navy;}
+    @include respond-to(smalltablet) {border: none; border-bottom: 1px solid $navy;}
+    @include respond-to(largetablet) {border: none; border-bottom: 1px solid $navy;}
+  }
+
+  .item-number {
+    width: 10%;
+    @include respond-to(phone) {font-size: small;}
+    @include respond-to(smalltablet) {font-size: small;}
+    @include respond-to(largetablet) {font-size: small;}
+  }
+
+  .product-description {
+    width: 90%;
+    @include respond-to(phone) {font-size: small;}
+    @include respond-to(smalltablet) {font-size: small;}
+    @include respond-to(largetablet) {font-size: small;}
+  }
+
+  .product-detail {
+    font-size: small;
+  }
+}

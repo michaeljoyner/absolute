@@ -1,0 +1,21 @@
+.about-main {
+  max-width: 800px;
+  margin: 2em auto 0;
+  padding: 0 1em;
+  @include respond-to(phone) {margin-top: 7em;}
+  @include respond-to(smalltablet) {margin-top: 7em;}
+
+  h1 {
+		font-family: $aardvark;
+		color: $navy;
+		width: 100%;
+		text-align: center;
+		font-size: 28px;
+	}
+
+	p {
+		font-family: $verdana;
+		line-height: 19px;
+		margin-bottom: 3em;
+	}
+}

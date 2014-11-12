@@ -1,0 +1,39 @@
+/*sliding nav menu*/
+#site_wrapper {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+#site_canvas {
+	width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transition: .5s ease all;
+    transition: .5s ease all;
+}
+
+#site_menu {
+	width: 300px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: -300px;
+	background-color: #EF696E;
+	color: #fff;
+	padding: 1em;
+}
+
+#site_wrapper.show-nav #site_canvas {
+    -webkit-transform: translate3d(300px,0,0);
+    transform: translate3d(300px,0,0);
+}
+
+#menu_burger {
+	display: inline-block;
+	font-size: 4em;
+	margin-left: 0.5em;
+	padding-bottom: 0.25em;
+}

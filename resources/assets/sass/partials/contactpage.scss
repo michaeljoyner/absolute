@@ -1,0 +1,97 @@
+.contact-main {
+	width: 100%;
+	max-width: 1100px;
+	margin: 2em auto 2em;
+    @include respond-to(phone) {padding: 0 1em; margin-top: 7em;}
+	@include respond-to(smalltablet) {padding: 0 1em; margin-top: 7em;}
+
+	h1 {
+		font-family: $aardvark;
+		color: $navy;
+		text-align: center;
+	}
+
+	p {
+		font-family: $verdana;
+		text-align: center;
+	}
+}
+
+.contact-form {
+	width: 100%;
+	max-width: 700px;
+	margin: 2em 0;
+	margin-left: 10%;
+	font-family: $verdana;
+  	@include respond-to(phone) {margin-left: 0;}
+    @include respond-to(smalltablet) {margin-left: 0;}
+
+	.form-group {
+		width: 100%;
+		margin: 1em 0;
+
+		label {
+			display: inline-block;
+			width: 30%;
+			text-align: right;
+			padding-right: 1em;
+			vertical-align: top;
+			font-weight: 600;
+			font-size: 90%;
+		  	color: $navy;
+		    @include respond-to(phone) {display: block; width: 100%; text-align: left;}
+		    @include respond-to(smalltablet) {display: block; width: 100%; text-align: left;}
+		}
+
+		input, textarea {
+			display: inline-block;
+			width: 68%;
+			background-color: $whitegrey;
+		  	@include respond-to(phone) {display: block; width: 100%;}
+		    @include respond-to(smalltablet) {display: block; width: 100%;}
+		}
+
+		textarea {
+			border: none;
+			resize: none;
+			padding: 0.5em;
+		}
+
+		input {
+			height: 2em;
+			border-style: none;
+			padding: 0.25em 0.5em;
+		}
+	}
+
+	#form-submit {
+		text-transform: uppercase;
+		font-weight: 700;
+	  	font-size: 110%;
+		border-style: none;
+		background-color: $navy;
+		color: $white;
+	    height: 40px;
+	  	cursor: pointer;
+	}
+  	#form-submit:hover {
+	  background-color: $orange;
+	}
+
+  .error-message {
+	font-size: 90%;
+	color: $orange;
+  }
+}
+
+
+
+.contact-details {
+	margin-top: 2em;
+
+	img {
+		width: 20px;
+		margin: 0 1em;
+		vertical-align: middle;
+	}
+}

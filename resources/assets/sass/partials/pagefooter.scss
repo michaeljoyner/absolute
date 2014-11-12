@@ -1,0 +1,70 @@
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 140px;
+  padding: 20px 0;
+  background-color: $navy;
+  @include respond-to(phone) {height: 238px;}
+  @include respond-to(smalltablet) {height: 238px;}
+
+  ul {
+    list-style-type: none;
+    color: $white;
+    font-family: $verdana;
+    font-size: 90%;
+    float: left;
+    margin: 0.25em 0 0 0;
+    @include respond-to(phone) {display: none;}
+    @include respond-to(smalltablet) {display: none;}
+
+    li {
+      padding: 0.25em 0;
+    }
+
+    li:hover {
+      color: $orange;
+    }
+  }
+
+  .footer-center {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    color: $white;
+    position: relative;
+    @include respond-to(phone) {width: 100%;}
+    @include respond-to(smalltablet) {width: 100%;}
+
+    img {
+      width: 280px;
+      margin-top: 1em;
+      @include respond-to(phone) {margin-bottom: 2em;}
+      @include respond-to(smalltablet) {margin-bottom: 2em;}
+    }
+
+    p {
+      margin: 0;
+      position: relative;
+      top: 40px;
+      font-size: 90%;
+      font-family: $verdana;
+      @include respond-to(phone) {top: 0;}
+      @include respond-to(smalltablet) {top: 0;}
+    }
+  }
+
+  .facebook {
+    float: right;
+    position: relative;
+    top: -45px;
+    margin-right: 2em;
+    @include respond-to(phone) {float: none; width: 48px; margin: 2em auto; top: 0;}
+    @include respond-to(smalltablet) {float: none; width: 48px; margin: 2em auto; top: 0;}
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}

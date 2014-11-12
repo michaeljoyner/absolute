@@ -1,0 +1,67 @@
+.icon-wrapper {
+  padding: 0 5em 5em 5em;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  @include respond-to(phone) {padding: 15px; width: 100%; margin-top: 5em;}
+  @include respond-to(smalltablet) {padding: 0; width: 90%; margin-top: 6em;}
+  @include respond-to(largetablet) {padding: 0; width: 90%; margin-top: 1em; margin-bottom: 3em;}
+}
+
+.icon-holder {
+  display: inline-block;
+  width: 115px;
+  height: 110px;
+  margin: 2em 2em;
+  cursor: pointer;
+  @include respond-to(phone) {margin: 0.5em; width: 15%; height: 77px;}
+  @include respond-to(smalltablet) {margin: 2em 0; width: 24%;}
+  @include respond-to(largetablet) {margin: 2em 0; width: 24%;}
+  transition: opacity .5s;
+}
+
+.carousel-open .icon-holder {
+  opacity: 0;
+}
+
+.lt-ie9 .carousel-open .icon-holder {
+  display: none;
+}
+
+.icon-holder svg {
+  margin-bottom: 0.5em;
+  @include respond-to(smalltablet) {width: 60%; display: block; margin: 0 auto 1em;}
+  @include respond-to(largetablet) {width: 60%; display: block; margin: 0 auto 1em;}
+  path, circle, polygon, ellipse, rect {
+    fill: $navy;
+  }
+}
+
+.icon-holder:hover svg {
+  path, circle, polygon, ellipse, rect {
+    fill: $orange;
+  }
+}
+
+.lt-ie9 .icon-holder:hover .sport-name {
+  color: $orange;
+}
+
+.icon-fallback {
+  display: none;
+}
+
+.lt-ie9 .icon-fallback {
+  display: inline-block;
+  width: 100%;
+}
+
+.sport-name {
+  font-family: $aardvark;
+  font-weight: 900;
+  font-size: 120%;
+  color: $navy;
+  @include respond-to(phone) {display: none;}
+  @include respond-to(widephone) {display: none;}
+}
