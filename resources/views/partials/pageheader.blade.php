@@ -1,5 +1,5 @@
 <header class="header-top">
-    <span class="menu-toggle" id="menu_burger"><i class="fa fa-bars"></i></span>
+    <span class="menu-toggle" id="menu_burger"><img class="burger-icon" src="{{ asset('images/app_menu_icon.png') }}" alt="toggle menu" width="30px" height="30px"/></span>
     <a href="/"><img src="{{ asset('images/logo_with_white_bg.png') }}" id="logo_image" alt="logo" width="320px" heigth="320px"></a>
     <nav class="menu-nav">
         <ul>

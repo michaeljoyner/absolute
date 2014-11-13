@@ -757,5 +757,5 @@
 @section('bodyscripts')
 <script src="{{ asset('vendor/velocity.min.js') }}"></script>
 <script src="{{ asset('vendor/velocity.ui.min.js') }}"></script>
-<script src="{{ asset('js/all.js') }}"></script>
+<script src="{{ elixir('js/all.js') }}"></script>
 @stop

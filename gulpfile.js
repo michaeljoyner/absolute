@@ -13,7 +13,7 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.sass("main.scss")
-        .scripts(['ready.js', 'carousel.js'], "resources/assets/scripts")
+        .scripts(['ready.min.js', 'carousel.min.js'], "resources/assets/scripts")
         .version(["css/main.css", "js/all.js"])
        .routes()
        .events();

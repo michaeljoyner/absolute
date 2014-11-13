@@ -20,7 +20,7 @@ return [
 	],
 
 	'mandrill' => [
-		'secret' => 'PhcLrN0XBA1ZWQm4AkpuuQ',
+		'secret' => $_ENV['MANDRILL_KEY'],
 	],
 
 	'stripe' => [
