@@ -18,7 +18,7 @@ class AdminMailer extends Mailer {
      */
     public function contactMessage($text, $sender, $phone, $from = NULL)
     {
-        $to = 'joyner.michael@gmail.com';
+        $to = 'ryan@absolutesport.co.za';
         $view = 'emails.admin.contact';
         $subject = 'Absolutesport site message';
         $data = compact('text', 'sender', 'phone');
