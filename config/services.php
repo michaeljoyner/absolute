@@ -20,7 +20,7 @@ return [
 	],
 
 	'mandrill' => [
-		'secret' => $_ENV['MANDRILL_KEY'],
+		'secret' => getenv('MANDRILL_KEY'),
 	],
 
 	'stripe' => [
