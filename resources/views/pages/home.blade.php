@@ -91,7 +91,7 @@
     <div class="sport-carousel">
         <div id="sport-slide1" class="sport-slide">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_athletics.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/athletics.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Athletics</h1>
@@ -147,7 +147,7 @@
         </div>
         <div id="sport-slide2" class="sport-slide">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_badminton.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/badminton.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Badminton</h1>
@@ -177,7 +177,7 @@
         </div>
         <div id="sport-slide3" class="sport-slide">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_basketball.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/basketball.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Basketball</h1>
@@ -253,7 +253,7 @@
         </div>
         <div id="sport-slide4" class="sport-slide">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_cricket.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/cricket.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Cricket</h1>
@@ -307,7 +307,7 @@
         </div>
         <div id="sport-slide5" class="sport-slide">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_custom.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/custom.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Custom</h1>
@@ -329,7 +329,7 @@
         </div>
         <div id="sport-slide6" class="sport-slide">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_grandstand2.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/grandstand.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Grandstands</h1>
@@ -351,7 +351,7 @@
         </div>
         <div id="sport-slide7" class="sport-slide">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_handball3.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/handball.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Handball</h1>
@@ -373,7 +373,7 @@
         </div>
         <div id="sport-slide8" class="sport-slide">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_hockey1.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/hockey.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Hockey</h1>
@@ -419,7 +419,7 @@
         </div>
         <div id="sport-slide9" class="sport-slide">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_netball.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/netball.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Netball</h1>
@@ -465,7 +465,7 @@
         </div>
         <div id="sport-slide10" class="sport-slide">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_rugby3.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/rugby.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Rugby</h1>
@@ -503,7 +503,7 @@
         </div>
         <div id="sport-slide11" class="sport-slide">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_soccer3.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/soccer.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Soccer</h1>
@@ -569,7 +569,7 @@
         </div>
         <div id="sport-slide12" class="sport-slide prev">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_swimming2.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/swimming.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Swimming</h1>
@@ -603,7 +603,7 @@
         </div>
         <div id="sport-slide13" class="sport-slide selected">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_tennis2.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/tennis.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Tennis</h1>
@@ -649,7 +649,7 @@
         </div>
         <div id="sport-slide14" class="sport-slide next">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_umpire1.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/umpire.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Umpire</h1>
@@ -671,7 +671,7 @@
         </div>
         <div id="sport-slide15" class="sport-slide">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_volleyball2.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/volleyball.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Volleyball</h1>
@@ -721,7 +721,7 @@
         </div>
         <div id="sport-slide16" class="sport-slide">
             <div class="slide-image-holder">
-                <img src="{{ asset('images/carousel/rsz_waterpolo3.jpg') }}" alt="">
+                <img src="{{ asset('images/carousel/waterpolo.jpg') }}" alt="">
             </div>
             <div class="slide-info">
                 <h1>Waterpolo</h1>
