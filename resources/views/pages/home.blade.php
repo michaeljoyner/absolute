@@ -320,7 +320,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td><td>Weird custom things</td>
+                            <td>1</td><td>Please contact us for any custom needs you may have.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -685,29 +685,33 @@
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>Volley Ball Set: Park and Sun Flex 1000. Park and Sun Pro Spiker Sport</td>
+                            <td>Volleyball Set: Park and Sun Flex 1000</td>
                         </tr>
                         <tr>
-                            <td>2</td><td>Light Duty Permanent Volleyball Posts with Footplate</td>
+                            <td>2</td>
+                            <td>Volleyball Set: Park and Sun Pro Spiker Sport</td>
                         </tr>
                         <tr>
-                            <td>3</td>
-                            <td>Standard Permanent Volleyball Posts with Ground Sleeves</td>
+                            <td>3</td><td>Light Duty Permanent Volleyball Posts with Footplate</td>
                         </tr>
                         <tr>
                             <td>4</td>
-                            <td>Heavy Duty Permanent Volleyball Posts</td>
+                            <td>Standard Permanent Volleyball Posts with Ground Sleeves</td>
                         </tr>
                         <tr>
                             <td>5</td>
-                            <td>Standard Portable Volleyball Posts with Base</td>
+                            <td>Heavy Duty Permanent Volleyball Posts</td>
                         </tr>
                         <tr>
                             <td>6</td>
-                            <td>Standard Volleyball Net</td>
+                            <td>Standard Portable Volleyball Posts with Base</td>
                         </tr>
                         <tr>
                             <td>7</td>
+                            <td>Standard Volleyball Net</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
                             <td>Heavy Duty Volleyball Net with Steel Cable</td>
                         </tr>
                     </tbody>
