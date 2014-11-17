@@ -25,6 +25,7 @@
 	font-family: $verdana;
   	@include respond-to(phone) {margin-left: 0;}
     @include respond-to(smalltablet) {margin-left: 0;}
+    @include respond-to(largetablet) {margin-left: 0;}
 
 	.form-group {
 		width: 100%;
@@ -41,6 +42,7 @@
 		  	color: $navy;
 		    @include respond-to(phone) {display: block; width: 100%; text-align: left;}
 		    @include respond-to(smalltablet) {display: block; width: 100%; text-align: left;}
+		    @include respond-to(largetablet) {width: 25%;}
 		}
 
 		input, textarea {
