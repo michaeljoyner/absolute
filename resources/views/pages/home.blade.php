@@ -1,5 +1,8 @@
 @extends('base')
-
+@section('meta')
+@parent
+<meta name="google-site-verification" content="NSLt633jPxjUB0kbU_qKkfbPDIGWNMcfiO3EumVcS6s" />
+@stop
 @section('menu')
 @include('partials.slidemenu')
 @stop
