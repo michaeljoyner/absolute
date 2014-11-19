@@ -1,8 +1,10 @@
 @extends('base')
 @section('title')
-<title>Contact | Absolute Sport</title>
+<title>Contact Us| Absolute Sport</title>
 @stop
-
+@section('meta')
+<meta name="description" content="If you are looking to contact us about our range of quality sports equipment, to get a quote, or if you have any custom manufacturing needs, you may send us a message here, or find the contact details you are looking for."/>
+@stop
 @section('menu')
 @include('partials.slidemenu')
 @stop

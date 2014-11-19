@@ -1,6 +1,10 @@
 @extends('base')
 @section('title')
-<title>About | Absolute Sport</title>
+<title>About Us | Absolute Sport</title>
+@stop
+
+@section('meta')
+<meta name="description" content="All about Absolute Sport, the company, the team and our inspiration to supply and manufacture quality sports equipment for South Africa and Southern Africa."/>
 @stop
 
 @section('menu')

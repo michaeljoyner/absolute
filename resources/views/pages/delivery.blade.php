@@ -3,6 +3,10 @@
 <title>Delivery | Absolute Sport</title>
 @stop
 
+@section('meta')
+<meta name="description" content="At Absolute Sport we are committed to supplying our customers with a diverse range of quality sporting equipment, and we can deliver throughout South Africa, Lesotho, Namibia, Botswana, Zimbabwe and Mozambique."/>
+@stop
+
 @section('menu')
 @include('partials.slidemenu')
 @stop

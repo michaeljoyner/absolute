@@ -8,7 +8,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	@section('title')
-	<title>Absolute Sport | Sports Equipment</title>
+	<title>Absolute Sport | Sports Equipment Suppliers and Manufacturers</title>
 	@show
 	<link rel="shortcut icon" href="{{ asset('/favicon.ico') }}" type="image/x-icon">
     <link rel="icon" href="{{ asset('/favicon.ico') }}" type="image/x-icon">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{ elixir('css/main.css') }}">
     @show
     @section('meta')
-    	<meta name="description" content="Absolute Sport manufactures and supplies quality sporting equipment in the Southern Africa region."/>
+    	<meta name="description" content="Absolute Sport manufactures and supplies quality sporting equipment in the Southern Africa region. We provide a diverse range of products for uses ranging from international competition to backyard fun."/>
     @show
     @section('facebookmeta')
     @include('partials.facebook')
