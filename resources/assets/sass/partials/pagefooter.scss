@@ -6,6 +6,7 @@
   padding: 20px 0;
   background-color: $navy;
   @include respond-to(phone) {height: 238px;}
+  @include respond-to(widephone) {height: 238px;}
   @include respond-to(smalltablet) {height: 238px;}
 
   ul {
@@ -16,6 +17,7 @@
     float: left;
     margin: 0.25em 0 0 0;
     @include respond-to(phone) {display: none;}
+    @include respond-to(widephone) {display: none;}
     @include respond-to(smalltablet) {display: none;}
 
     li {
@@ -34,12 +36,14 @@
     color: $white;
     position: relative;
     @include respond-to(phone) {width: 100%;}
+    @include respond-to(widephone) {width: 100%;}
     @include respond-to(smalltablet) {width: 100%;}
 
     img {
       width: 280px;
       margin-top: 1em;
       @include respond-to(phone) {margin-bottom: 2em;}
+      @include respond-to(widephone) {margin-bottom: 2em;}
       @include respond-to(smalltablet) {margin-bottom: 2em;}
     }
 
@@ -50,6 +54,7 @@
       font-size: 90%;
       font-family: $verdana;
       @include respond-to(phone) {top: 0;}
+      @include respond-to(widephone) {top: 0;}
       @include respond-to(smalltablet) {top: 0;}
     }
   }
@@ -61,6 +66,7 @@
     top: -45px;
     margin-right: 2em;
     @include respond-to(phone) {float: none; width: 48px; margin: 2em auto; top: 0;}
+    @include respond-to(widephone) {float: none; width: 48px; margin: 2em auto; top: 0;}
     @include respond-to(smalltablet) {float: none; width: 48px; margin: 2em auto; top: 0;}
   }
 

@@ -3,8 +3,10 @@
   width: 100%;
   min-height: 60%;
   top: 14em;
+  z-index: 100;
   transform: translate3d(-2000px,0,0);
   @include respond-to(phone) {top: 9em;}
+  @include respond-to(widephone) {top: 11em;}
   @include respond-to(smalltablet) {top: 13em;}
 }
 
@@ -27,6 +29,7 @@
   font-family: "Georgia", Times, serif;
   background-color: $white;
   @include respond-to(phone) {display: none;}
+  @include respond-to(widephone) {display: none;}
   @include respond-to(smalltablet) {display: none;}
   @include respond-to(largetablet) {display: none;}
 
@@ -53,6 +56,7 @@
     margin: 0;
     color: $superlightgrey;
     @include respond-to(phone) {display: none;}
+    @include respond-to(widephone) {display: none;}
     @include respond-to(smalltablet) {display: none;}
   }
 
@@ -76,6 +80,7 @@
     margin: 0;
     color: $superlightgrey;
     @include respond-to(phone) {display: none;}
+    @include respond-to(widephone) {display: none;}
     @include respond-to(smalltablet) {display: none;}
   }
 }
@@ -101,6 +106,7 @@
   border: 4px solid $navy;
   box-shadow: 8px 8px 8px $lightgrey;
   @include respond-to(phone) {display: block;}
+  @include respond-to(widephone) {display: block;}
   @include respond-to(smalltablet) {display: block;}
   @include respond-to(largetablet) {display: block; padding-top: 40px;}
 }
@@ -114,6 +120,7 @@
   cursor: pointer;
   overflow: hidden;
   @include respond-to(phone) {top: -30px;}
+  @include respond-to(widephone) {top: -30px;}
   @include respond-to(smalltablet) {top: -30px;}
 
   img {
@@ -156,6 +163,7 @@
   border-radius: 50%;
   cursor: pointer;
   @include respond-to(phone) {left: 39%; top: -35px}
+  @include respond-to(widephone) {left: 45%; top: -35px}
   @include respond-to(smalltablet) {left: 45%; top: -35px}
   @include respond-to(largetablet) {left: 48%; top: -35px}
 
@@ -186,6 +194,7 @@
   margin-left: 1em;
   float: left;
   @include respond-to(phone) {display: none;}
+  @include respond-to(widephone) {display: none;}
   @include respond-to(smalltablet) {display: none;}
 
   img {
@@ -217,10 +226,12 @@
     padding: 0.25em 0;
     letter-spacing: 1px;
     @include respond-to(phone) {margin-right: 0; border: none; font-size: 115%;}
+    @include respond-to(widephone) {margin-right: 0; border: none; font-size: 115%;}
     @include respond-to(smalltablet) {margin-right: 0; border: none; font-size: 115%;}
     @include respond-to(largetablet) {margin-right: 0; border: none; font-size: 115%;}
   }
   @include respond-to(phone) {width: 100%; padding-top: 40px; margin: 0;}
+  @include respond-to(widephone) {width: 100%; padding-top: 40px; margin: 0;}
   @include respond-to(smalltablet) {width: 100%; padding-top: 40px; margin: 0;}
 }
 
@@ -232,6 +243,7 @@
   font-family: $verdana;
   color: $navy;
   @include respond-to(phone) {border: none; border-top: 1px solid $navy;}
+  @include respond-to(widephone) {border: none; border-top: 1px solid $navy;}
   @include respond-to(smalltablet) {border: none; border-top: 1px solid $navy;}
   @include respond-to(largetablet) {border: none; border-top: 1px solid $navy;}
   thead {
@@ -243,6 +255,7 @@
   th, td {
     border: 1px solid $navy;
     @include respond-to(phone) {border: none; border-bottom: 1px solid $navy;}
+    @include respond-to(widephone) {border: none; border-bottom: 1px solid $navy;}
     @include respond-to(smalltablet) {border: none; border-bottom: 1px solid $navy;}
     @include respond-to(largetablet) {border: none; border-bottom: 1px solid $navy;}
   }
@@ -250,6 +263,7 @@
   .item-number {
     width: 10%;
     @include respond-to(phone) {font-size: small;}
+    @include respond-to(widephone) {font-size: small;}
     @include respond-to(smalltablet) {font-size: small;}
     @include respond-to(largetablet) {font-size: small;}
   }
@@ -257,6 +271,7 @@
   .product-description {
     width: 90%;
     @include respond-to(phone) {font-size: small;}
+    @include respond-to(widephone) {font-size: small;}
     @include respond-to(smalltablet) {font-size: small;}
     @include respond-to(largetablet) {font-size: small;}
   }

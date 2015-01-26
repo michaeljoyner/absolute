@@ -5,6 +5,7 @@
   width: 90%;
   max-width: 1000px;
   @include respond-to(phone) {padding: 15px; width: 100%; margin-top: 5em;}
+  @include respond-to(widephone) {padding: 0; width: 90%; margin-top: 6em;}
   @include respond-to(smalltablet) {padding: 0; width: 90%; margin-top: 6em;}
   @include respond-to(largetablet) {padding: 0; width: 90%; margin-top: 1em; margin-bottom: 3em;}
 }
@@ -16,6 +17,7 @@
   margin: 2em 2em;
   cursor: pointer;
   @include respond-to(phone) {margin: 0.5em; width: 15%; height: 77px;}
+  @include respond-to(widephone) {margin: 2em 0.5em; width: 18%; height: 70px;}
   @include respond-to(smalltablet) {margin: 2em 0; width: 24%;}
   @include respond-to(largetablet) {margin: 2em 0; width: 24%;}
   transition: opacity .5s;

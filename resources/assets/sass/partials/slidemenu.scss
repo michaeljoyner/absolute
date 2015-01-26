@@ -14,6 +14,7 @@
   transition: .5s ease all;
   padding-bottom: 140px;
   @include respond-to(phone) {padding-bottom: 230px;}
+  @include respond-to(widephone) {padding-bottom: 230px;}
   @include respond-to(smalltablet) {padding-bottom: 230px;}
 }
 
@@ -80,6 +81,7 @@
   padding-bottom: 0.25em;
   color: $navy;
   @include respond-to(phone) {display: inline-block;}
+  @include respond-to(widephone) {display: inline-block;}
   @include respond-to(smalltablet) {display: inline-block;}
 }
 
@@ -91,7 +93,11 @@
   font-size: 2em;
   border-radius: 50%;
   line-height: 45px;
-  vertical-align: bottom;
-  margin-right: .5em;
+  margin: 0 auto;
   color: $navy;
+}
+
+.close-button-holder {
+  width: 100%;
+  text-align: center;
 }

@@ -1,4 +1,5 @@
-<h2><button id="slide-menu-close" class="menu-toggle">&times;</button>AbsoluteSport</h2>
+<div class="close-button-holder"><button id="slide-menu-close" class="menu-toggle">&times;</button></div>
+<h2>AbsoluteSport</h2>
 <img class="tagline" src="{{ asset('images/tagline.png') }}" alt="tagline" width="250px" height="30px"/>
 <ul>
     <a href="/"><li><img src="{{ asset('images/home_icon.png') }}" alt="home" width="20px" height="20"/>Home</li></a>

@@ -3,7 +3,8 @@
 	max-width: 1100px;
 	margin: 2em auto 2em;
     @include respond-to(phone) {padding: 0 1em; margin-top: 7em;}
-	@include respond-to(smalltablet) {padding: 0 1em; margin-top: 7em;}
+    @include respond-to(widephone) {padding: 0 1em; margin-top: 7em;}
+    @include respond-to(smalltablet) {padding: 0 1em; margin-top: 7em;}
 
 	h1 {
 		font-family: $aardvark;
@@ -24,6 +25,7 @@
 	margin-left: 10%;
 	font-family: $verdana;
   	@include respond-to(phone) {margin-left: 0;}
+    @include respond-to(widephone) {margin-left: 0;}
     @include respond-to(smalltablet) {margin-left: 0;}
     @include respond-to(largetablet) {margin-left: 0;}
 
@@ -41,7 +43,8 @@
 			font-size: 90%;
 		  	color: $navy;
 		    @include respond-to(phone) {display: block; width: 100%; text-align: left;}
-		    @include respond-to(smalltablet) {display: block; width: 100%; text-align: left;}
+		    @include respond-to(widephone) {display: block; width: 100%; text-align: left;}
+ 		    @include respond-to(smalltablet) {display: block; width: 100%; text-align: left;}
 		    @include respond-to(largetablet) {width: 25%;}
 		}
 
@@ -50,6 +53,7 @@
 			width: 68%;
 			background-color: $whitegrey;
 		  	@include respond-to(phone) {display: block; width: 100%;}
+		    @include respond-to(widephone) {display: block; width: 100%;}
 		    @include respond-to(smalltablet) {display: block; width: 100%;}
 		}
 

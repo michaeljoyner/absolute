@@ -3,6 +3,7 @@
   margin: 2em auto 0;
   padding: 0 1em;
   @include respond-to(phone) {margin-top: 7em;}
+  @include respond-to(widephone) {margin-top: 7em;}
   @include respond-to(smalltablet) {margin-top: 7em;}
 
   h1 {
