@@ -15,7 +15,7 @@ return [
 	*/
 
 	'mailgun' => [
-		'domain' => 'mg.absolutesports.co.za',
+		'domain' => 'mg.absolutesport.co.za',
 		'secret' => getenv('MAILGUN_KEY'),
 	],
 
