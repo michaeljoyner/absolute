@@ -15,8 +15,8 @@ return [
 	*/
 
 	'mailgun' => [
-		'domain' => '',
-		'secret' => '',
+		'domain' => 'mg.absolutesports.co.za',
+		'secret' => env('MAILGUN_KEY'),
 	],
 
 	'mandrill' => [
